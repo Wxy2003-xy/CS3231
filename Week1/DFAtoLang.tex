@@ -208,7 +208,7 @@ This DFA has two cycles: 1 - 2 - 0 - 1 and 1 - 2 - 3 - 1.
 
 To find the language accepted by this DFA:
 \begin{itemize}
-    \item First, from state 0 go to state 1 by reading "a". (Any other state which is common to these cycles such as state 2 can also be used instead of state 1).
+    \item First, from state 0 go to state 1 by reading `a`. (Any other state which is common to these cycles such as state 2 can also be used instead of state 1).
     \item Then from state 1, go through the two cycles 1 - 2 - 0 - 1 and 1 - 2 - 3 - 1 any number of times in any order by reading substrings "baa" and "bba", respectively. At this point, a substring \( a(baa + bba)^* \) will have been read.
     \item Then go from state 1 to state 2 and then to state 3 by reading "bb".
 \end{itemize}
@@ -238,7 +238,7 @@ This DFA has two accepting states: 0 and 1. Thus, the language that is accepted 
     \item The language accepted at state 0 is \( b^* \).
     \item To find the language accepted at state 1, first at state 0 read any number of "b"s. Then go to state 1 by reading one "a". At this point \( (b^*a) \) will have been read. At state 1, go through the cycle 1 - 2 - 1 any number of times by reading the substring "ba" repeatedly. Thus, the language accepted at state 1 is \( b^*a(ba)^* \).
 \end{itemize}
-\subsection*{More examples}
+\subsection*{More examples: Tut 1 Q5}
 \begin{center}
     \begin{tikzpicture}[shorten >=1pt, node distance=3cm, on grid, auto]
         % Define the nodes
@@ -261,7 +261,24 @@ This DFA has two accepting states: 0 and 1. Thus, the language that is accepted 
     \end{tikzpicture}
 \end{center}
 This DFA contains 2 accepting states, suggesting the union of the language accepted at state 1 and state 2.
+\begin{itemize}
+    \item The language accepted at state 1 is 
+    \begin{itemize}
+        \item Case 1-1: \(a(aa)^*\).
+    \end{itemize}
+    \item The language accepted at state 2 can be 
+    \begin{itemize}
+        \item  Case 2-1: \((aa)^*b\): ((0 - 1 - 0)\(^*\) - 2) (\(Case\ 2-1 \subseteq Case\ 2-3\))
+        \item  Case 2-2: \((aa)^*b(aa)^*\):  ((0 - 1 - 0)\(^*\) - (2 - 3 - 2)\(^*\)) (\(Case\ 2-2 \subseteq Case\ 2-4\))
+        \item  Case 2-3: \(a^*(aa)^*b\):  (0 - (1 - 0 - 1)\(^*\) - 2) (\(Case\ 2-3 \subseteq Case\ 2-2\))
+        \item  Case 2-4: \(a^*(aa)^*b(aa)^*\):  (0 - (1 - 0 - 1)\(^*\) - (2 - 3 - 2)\(^*\))
+        \item  Case 2-5: \(b(aa)^*\): (0 - (2 - 3 - 2)\(^*\)) (\(Case\ 2-5 \subseteq Case\ 2-2\))
+    \end{itemize}
+\end{itemize}
+All unioned together, language accepted by this DFA is 
+    \begin{center}
+        \[L = a(aa)^* \cup a^*(aa)^*b(aa)^*\]
+    \end{center}
 
-This DFA also contains 2 separated cycles, 
 
 \end{document}
