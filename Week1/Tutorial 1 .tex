@@ -1,6 +1,5 @@
 \documentclass[12pt]{article} 
 
-
 \usepackage[utf8]{inputenc}    
 \usepackage[T1]{fontenc}       
 \usepackage{lmodern}           
@@ -44,7 +43,7 @@
 \fancyhead[L]{\leftmark} 
 \fancyhead[R]{\thepage}  
 
-\title{Document Title}
+\title{CS3231 Tutorial 1}
 \author{WANG Xiyu}
 \date{\today}
 
@@ -142,16 +141,36 @@ Simplifying this geometric series gives:
 A\cdot\bigcup\limits_{i=1}^{\infty} B_i=\bigcup\limits_{i=1}^{\infty}A\cdot B_i
 \]
 \subsubsection*{Solution:}
-Supose 
+Suppose:
 \[s\in A\cdot\bigcup\limits_{i=1}^{\infty} B_i\]
 By the definition of concatenation,
-\[s = a \cdot b \text{ such that }\exists a, b (a \in A, b\in\bigcup\limits_{i=1}^{\infty} B_i )\]
+\[s = a \cdot b \implies \exists a, b (a \in A, b\in\bigcup\limits_{i=1}^{\infty} B_i )\]
 \[b\in\bigcup\limits_{i=1}^{\infty} B_i \implies\exists j \in \mathbb{N}(b \in B_j)\]
 \[s = a \cdot b \implies s \in \bigcup\limits_{j=1}^{\infty}A\cdot B_j\]
 Thus,
 \[
-A\cdot\bigcup\limits_{i=1}^{\infty} B_i \subseteq \bigcup\limits_{i=1}^{\infty}A\cdot B_i
+A\cdot\bigcup\limits_{i=1}^{\infty} B_i \subseteq \bigcup\limits_{i=1}^{\infty}A\cdot B_i   \text{      (1)}
 \]
+
+Suppose:
+\[s\in \bigcup\limits_{i=1}^{\infty}A\cdot B_i\]
+By the definition of union,
+\[s = a \cdot b\]
+\[\exists j \in \mathbb{N}(s \in A\cdot B_j)\]
+By the definition of concatenation,
+\[s = a \cdot b \implies \exists a, b (a \in A, b\in B_j )\]
+\[b\in B_j \land B_j \in \bigcup\limits_{i=1}^{\infty}B_i \implies b \in \bigcup\limits_{i=1}^{\infty}B_i\]
+Therefore, 
+\[s = a\cdot b \in A \cdot \bigcup\limits_{i=1}^{\infty}B_i\]
+Thus,
+\[
+ \bigcup\limits_{i=1}^{\infty}A\cdot B_i\subseteq A\cdot\bigcup\limits_{i=1}^{\infty} B_i \text{      (2)}
+\]
+From \((1)\) and \((2)\),
+\[
+A\cdot\bigcup\limits_{i=1}^{\infty} B_i=\bigcup\limits_{i=1}^{\infty}A\cdot B_i
+\]
+
 \subsection*{Prove:} 
 \[
 (A^*)^+=(A^+)^*
@@ -253,4 +272,8 @@ Unioned together,
     \begin{center}
         \[L = L_1 \cup L_2 = b^*aa^*b(ba^*b)^*\]
     \end{center}
+
+    \section*{Acknowledgment}
+    I acknowledge the assistance of generative AI tools, such as ChatGPT, in the formatting and preparation of this LaTeX document.
+    
 \end{document}
