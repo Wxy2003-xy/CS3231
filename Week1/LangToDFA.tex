@@ -62,8 +62,39 @@
           edge [bend left, above] node {0} (q_0);
 \end{tikzpicture}
 
-\section*{Example: Tut 1 Q4}
-\subsection*{DFA for the Language \( L = \{ s \in \{a, b\}^* \mid \textrm{s does not contain substring 'ababba'}  \} \)}
+\subsection*{Example: DFA for the Language \( L = \{ s \in \{a, b\}^* \mid \textrm{s does not contain substring 'ababba'}  \} \)}
+
+\subsection*{Example: From language below reverse engineer the DFA}
+% \begin{center}
+%     \begin{tikzpicture}[shorten >=1pt, node distance=3cm, on grid, auto]
+%         % Define the nodes
+%         \node[state, initial] (q_0) {$q_0$}; 
+%         \node[state] (q_1) [right=of q_0] {$q_1$}; 
+%         \node[state] (q_2) [right=of q_1] {$q_2$}; 
+%         \node[state] (q_3) [right=of q_2] {$q_3$}; 
+%         \node[state] (q_4) [below=of q_1] {$q_4$};
+%         % Define the transitions
+%         \path[->] 
+%         (q_0) edge[above] node {a} (q_1)
+%         (q_0) edge[above] node {b} (q_4)
+%         (q_1) edge[right] node {a} (q_4)
+%         (q_1) edge[above] node {b} (q_2)
+%         (q_2) edge[above] node {b} (q_3)
+%         (q_2) edge[bend right, above] node {a} (q_0)
+%         (q_3) edge[bend right, above] node {a} (q_1)
+%         (q_3) edge[right] node {b} (q_4)
+%         (q_4) edge[loop below] node {a, b} ();
+
+%     \end{tikzpicture}
+% \end{center}
+Find a DFA that accepts \(L = a(baa + bba)^*bb \)
+
+Start parsing from the left, it can be seen that the first char must be \(a\), suggestion:
+\begin{itemize}
+      \item \({epsilon} \notin L\)
+\end{itemize}
+
+
 
 
 \end{document}

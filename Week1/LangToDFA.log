@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  17 AUG 2024 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  20 AUG 2024 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,35 +721,38 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 66.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 66.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 66.
+(Font)              <6> on input line 65.
 
-Overfull \hbox (20.3685pt too wide) in paragraph at lines 66--66
-[][]\T1/lmr/bx/n/12 DFA for the Lan-guage $\OML/lmm/m/it/12 L \OT1/lmr/m/n/12 = \OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 s \OMS/lmsy/m/n/12 2 f\OML/lmm/m/it/12 a; b\OMS/lmsy/m/n/12 g[] j []g$ 
+Overfull \hbox (80.57697pt too wide) in paragraph at lines 65--65
+[][]\T1/lmr/bx/n/12 Example: DFA for the Lan-guage $\OML/lmm/m/it/12 L \OT1/lmr/m/n/12 = \OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 s \OMS/lmsy/m/n/12 2 f\OML/lmm/m/it/12 a; b\OMS/lmsy/m/n/12 g[] j []g$ 
  []
 
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 94.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./LangToDFA.aux)
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./LangToDFA.aux)
 Package rerunfilecheck Info: File `LangToDFA.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25162 strings out of 476025
- 472131 string characters out of 5790016
- 1859388 words of memory out of 5000000
- 45181 multiletter control sequences out of 15000+600000
- 568317 words of font info for 78 fonts, out of 8000000 for 9000
+ 25197 strings out of 476025
+ 473026 string characters out of 5790016
+ 1861388 words of memory out of 5000000
+ 45211 multiletter control sequences out of 15000+600000
+ 568682 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,89p,582b,832s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on LangToDFA.pdf (1 page, 107589 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on LangToDFA.pdf (1 page, 120138 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

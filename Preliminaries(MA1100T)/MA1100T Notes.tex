@@ -128,8 +128,68 @@ Literally direct proof
     \[x - y \in \mathbb{R}\]
     \[(x - y)^2 \geq 0\]
 \end{example}
-\subsubsection{}
-\subsubsection{}
+\subsubsection{Proof by Contrapositive}
+\[P(x) \implies Q(x) \iff \neg Q(x) \implies \neg P(x)\]
+
+Note, a statement is true, iff its contrapositive is true. But if a statement is true, its converse cannot be proven solely from it, which is also called 'converse error'
+\begin{example}
+    Prove: \(\forall a \in \mathbb{Z}(a^2 \text{ is even } \implies a \text{ is even}) \)
+    We shall prove the contrapositive of the given statement.
+    Assume, 
+    \[a \in \mathbb{Z} \text{ is not even , ie. a is odd}\]
+    (Do not say 'assume a is not an even integer' since there could be ambiguity that a could be an even real number)
+    By definition of odd number, 
+    \[\exists k \in \mathbb{Z} \text{ such that } a = 2k + 1\]
+    \[a^2 = ... = 2(2k^2 + 2k) + 1\]
+    This shows \(a^2\) is odd, so \(a^2\) is not even, as desired. 
+    (Here another fact is used: A number is even XOR odd)
+\end{example}
+
+\begin{example}
+    Prove: if x is rational and xy is irrational, y is irrational.
+    \[\forall x, y(x \in \mathbb{Q} \land xy \notin \mathbb{Q} \implies y \notin \mathbb{Q})\]
+    Which can be expressed as:
+    \[\forall x, y(\neg(x \in \mathbb{Q} \land xy \notin \mathbb{Q}) \lor y \notin \mathbb{Q})\]
+    \[\forall x, y(\neg x \in \mathbb{Q} \lor \neg xy \notin \mathbb{Q} \lor y \notin \mathbb{Q})\]
+    \[\forall x, y(\neg x \in \mathbb{Q} \lor \neg y \in \mathbb{Q}) \lor \neg xy \notin \mathbb{Q}\]
+    \[\forall x, y\neg (x \in \mathbb{Q} \land y \in \mathbb{Q}) \lor \neg xy \notin \mathbb{Q}\]
+    \[\forall x, y(x \in \mathbb{Q} \land y \in \mathbb{Q}) \implies xy \in \mathbb{Q}\]
+\end{example}
+The above example may not be obvious to be contrapositive.
+\[P(x): \text{x is rational; } Q(x, y): \text{xy is not rational; } \]
+\[\forall x, y ((P(x)\land Q(x,y)) \implies \neg P(y))\]
+The contrapositive of the above statement will be: 
+\[\forall x, y (P(y) \implies \neg(P(x)\land Q(x,y))\]
+Which is equivalent to:
+\[\forall x, y ((P(y) \land P(y)) \implies \neg Q(x,y)\]
+By doing some propsitional logic manipulations.
+\subsubsection{Proof by Contradiction}
+To prove Q by contradiction,
+\begin{itemize}
+    \item Assume that Q fails.
+    \item Derive some contradicion, \(r \land \neg r\)
+\end{itemize}
+\begin{example}
+    Prove: \(a_0, a_1, a_2 \in \mathbb{R}, \exists i \in \{0, 1, 2\} (a_i \leq \frac{a_0 + a_1 + a_2}{3})\)
+    Assume otherwise, 
+    \[a_0 > \frac{a_0 + a_1 + a_2}{3} \land a_1 > \frac{a_0 + a_1 + a_2}{3} \land a_2 > \frac{a_0 + a_1 + a_2}{3}\]
+    Sum up, 
+    \[a_0 + a_1 + a_2 > a_0 + a_1 + a_2\]
+    Contradiction. 
+\end{example}
+Here can see proof by contrapositive is a speacial case of proof by contradiction, since if 
+\[p \implies q \equiv F\]
+\[p \land \neg q \equiv T\]
+\[\neg q \implies \neg p \equiv T\]
+\[p \land \neg p\]
+Contradiction.
+
+\begin{example}
+    Prove: \(\sqrt[]{2}\) is irrational.
+    Assume \(\sqrt[]{2}\) is rational, by definition:
+    \[\exists a, b \in \mathbb{Z} \land b \neq 0 \text{ such that }\sqrt[]{2} = \frac{a}{b}\]
+\end{example}
+
 \subsubsection{}
 \subsubsection{}
 \newpage
