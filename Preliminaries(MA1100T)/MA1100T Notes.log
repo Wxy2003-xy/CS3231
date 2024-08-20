@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  20 AUG 2024 13:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  20 AUG 2024 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -502,132 +502,132 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 117.
 
-[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [5] [6]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 257.
+[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [5] [6] [7]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 269.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 257.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
 
-Overfull \hbox (12.90102pt too wide) in paragraph at lines 257--258
+Overfull \hbox (12.90102pt too wide) in paragraph at lines 269--270
 []\OT1/cmr/bx/n/10 Example. []$[]\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 A; B\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 = [][][] = [][][] =
  []
 
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-Overfull \hbox (6.95871pt too wide) in paragraph at lines 855--858
+[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+Overfull \hbox (6.95871pt too wide) in paragraph at lines 867--870
 []$\OT1/cmr/m/n/10 : Sup-pose for all $\OML/cmm/m/it/10 a[] < a$\OT1/cmr/m/n/10 , there is some $\OML/cmm/m/it/10 e[] \OMS/cmsy/m/n/10 2 F$ \OT1/cmr/m/n/10 such that $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 p[] [] [] e[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
  []
 
-[20] [21] [22] [23] [24] [25] [26]
+[21] [22] [23] [24] [25] [26] [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1237.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thicksim' on input line 1237.
+(hyperref)                removing `math shift' on input line 1249.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1237.
+(hyperref)                removing `\thicksim' on input line 1249.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1279.
+(hyperref)                removing `math shift' on input line 1249.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thicksim' on input line 1279.
+(hyperref)                removing `math shift' on input line 1291.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1279.
-
-[27] [28] [29]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1487.
+(hyperref)                removing `\thicksim' on input line 1291.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1487.
+(hyperref)                removing `math shift' on input line 1291.
+
+[28] [29] [30]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1499.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1487.
+(hyperref)                removing `math shift' on input line 1499.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1487.
-
-[30]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1532.
+(hyperref)                removing `math shift' on input line 1499.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1532.
+(hyperref)                removing `math shift' on input line 1499.
+
+[31]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1532.
+(hyperref)                removing `math shift' on input line 1544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1532.
-
-[31] [32] [33] [34] [35] [36] [37]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1956.
+(hyperref)                removing `math shift' on input line 1544.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1956.
+(hyperref)                removing `math shift' on input line 1544.
 
-[38] [39] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 2257--2290
+[32] [33] [34] [35] [36] [37] [38]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1968.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1968.
+
+[39] [40] [41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 2269--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2257--2290
+Underfull \hbox (badness 10000) in paragraph at lines 2269--2302
 
  []
 
-[42] [43] [44] [45] [46] [47]
+[43] [44] [45] [46] [47] [48]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2578.
+(hyperref)                removing `math shift' on input line 2590.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2578.
+(hyperref)                removing `math shift' on input line 2590.
 
-[48] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 2785--2786
+[49] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 2797--2798
 
  []
 
-[50] [51] (./MA1100T Notes.aux)
+[51] [52] (./MA1100T Notes.aux)
 Package rerunfilecheck Info: File `"MA1100T Notes".out' has not changed.
 (rerunfilecheck)             Checksum: 2AC1051DCA5DE481FE392550D1D06BA5;10527.
  ) 
 Here is how much of TeX's memory you used:
- 12305 strings out of 476025
- 192703 string characters out of 5790016
+ 12306 strings out of 476025
+ 192710 string characters out of 5790016
  1868388 words of memory out of 5000000
  32221 multiletter control sequences out of 15000+600000
  520831 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,76p,804b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "MA1100T Notes.pdf" (51 pages, 417658 bytes).
+Output written on "MA1100T Notes.pdf" (52 pages, 419229 bytes).
 PDF statistics:
- 958 PDF objects out of 1000 (max. 8388607)
- 856 compressed objects within 9 object streams
- 363 named destinations out of 1000 (max. 500000)
+ 962 PDF objects out of 1000 (max. 8388607)
+ 859 compressed objects within 9 object streams
+ 364 named destinations out of 1000 (max. 500000)
  465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

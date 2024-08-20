@@ -188,6 +188,18 @@ Contradiction.
     Prove: \(\sqrt[]{2}\) is irrational.
     Assume \(\sqrt[]{2}\) is rational, by definition:
     \[\exists a, b \in \mathbb{Z} \land b \neq 0 \text{ such that }\sqrt[]{2} = \frac{a}{b}\]
+    That can be simplified to its simplest form 
+    \[\exists m, n \in \mathbb{Z}(\gcd(m, n) = 1) \land b \neq 0 \text{ such that }\sqrt[]{2} = \frac{m}{n}\]
+    
+    \[\sqrt[]{2}n = m\]
+    \[2n^2 = m^2\]
+    \(m^2\) is even, therefore \(m\) is even. 
+    \[\exists k \in \mathbb{Z}(m = 2k)\]
+    \[4n^2 = 2m^2 \iff 4n^2 = 8k^2\]
+    \[n^2 = 2k^2\]
+    \(n^2\) is even, therefore \(n\) is even. 
+    \[Even(m) \land Even(n) \implies \exists p, q \in \mathbb{Z} (\frac{m}{n} = 2 \times \frac{p}{q})\]
+    This is a contradiction, therefore the assumption that \(\sqrt[]{2}\) being rational fails
 \end{example}
 
 \subsubsection{}
