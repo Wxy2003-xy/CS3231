@@ -14,7 +14,8 @@
 \usepackage{enumitem}          
 \usepackage{caption}           
 \usepackage{listings}          
-\usepackage{multirow}          
+\usepackage{multirow}    
+\usepackage{xcolor}      
 \usetikzlibrary{automata, positioning}
 \lstset{
   frame=tb,
@@ -33,7 +34,13 @@
   breakatwhitespace=true,
   tabsize=3
 }
-
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
 
 \geometry{margin=1in} 
 
@@ -42,6 +49,7 @@
 \fancyhf{}
 \fancyhead[L]{\leftmark} 
 \fancyhead[R]{\thepage}  
+\newtheorem{Correction}{Correction}
 
 \title{CS3231 Tutorial 1}
 \author{WANG Xiyu}
@@ -133,8 +141,9 @@ From \((2.1)\),
 \]
 Simplifying this geometric series gives:
 \[\sum_{i=0}^{n}|\Sigma|^i = \frac{|\Sigma|^{n+1}-1}{|\Sigma|-1}\]
-
-
+\begin{Correction}
+    \textcolor{red}{Geometric series doesnt work on \(|\Sigma| = 1\)}
+\end{Correction}
 \section{}
 \subsection*{Prove:}
 \[
@@ -171,6 +180,10 @@ From \((1)\) and \((2)\),
 A\cdot\bigcup\limits_{i=1}^{\infty} B_i=\bigcup\limits_{i=1}^{\infty}A\cdot B_i
 \]
 
+\begin{itemize}
+    \item \textcolor{red}{Note: properties hold on finite union cannot be assumed on infinite union.}
+\end{itemize}
+
 \subsection*{Prove:} 
 \[
 (A^*)^+=(A^+)^*
@@ -183,6 +196,19 @@ A\cdot\bigcup\limits_{i=1}^{\infty} B_i=\bigcup\limits_{i=1}^{\infty}A\cdot B_i
 \[(A^+)^* = \{\epsilon\} \cup A^+ \cup (A^+)^2 \cup ...\]
 \[= \{\epsilon\} \cup (A \cup A^2 \cup A^3 \cup ...)\cup (A \cup A^2 \cup A^3 \cup ...)\cup ...\]
 \[= \{\epsilon\} \cup A \cup A^2 \cup A^3 \cup ...  \text{   (RHS)}\] 
+
+To prove 
+
+\begin{Correction}
+    \textcolor{red}{\newline
+        To Prove \(A^* \subseteq (A^*)^*\) \newline
+        Let \(B = (A)^*\)
+        \(A \subseteq (B)^*\)   \newline
+        To Prove \((A^*)^* \subseteq A^*\)\newline
+        Suppose \(\)
+    }
+\end{Correction}
+
 
 \section{}
 I'm too lazy to do this drawing here please refer to the photo attached below.
@@ -240,7 +266,12 @@ All unioned together, language accepted by this DFA is
     \begin{center}
         \[L = a(aa)^* \cup a^*(aa)^*b(aa)^*\]
     \end{center}
+    \begin{Correction}
+        \textcolor{red}{\[L = a(aa)^* \cup a^*b(aa)^*\]
+        Since \(a^*(aa)^*\) accommendate both even and odd number of a's}
 
+    \end{Correction}
+x
 \section{}
 \begin{center}
     \begin{tikzpicture}[shorten >=1pt, node distance=3cm, on grid, auto]
@@ -273,7 +304,5 @@ Unioned together,
         \[L = L_1 \cup L_2 = b^*aa^*b(ba^*b)^*\]
     \end{center}
 
-    \section*{Acknowledgment}
-    I acknowledge the assistance of generative AI tools, such as ChatGPT, in the formatting and preparation of this LaTeX document.
  
 \end{document}

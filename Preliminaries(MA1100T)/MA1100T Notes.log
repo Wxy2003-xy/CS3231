@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  20 AUG 2024 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  27 AUG 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,7 +394,7 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \colbreak@box=\box99
 \mc@col@check@num=\count305
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 34.
 \c@definition=\count306
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
@@ -408,24 +408,24 @@ LaTeX Warning: Unused global option(s):
 (./MA1100T Notes.aux)
 \openout1 = `"MA1100T Notes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count308
@@ -479,16 +479,16 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 61.
+Package hyperref Info: Link coloring ON on input line 62.
 (./MA1100T Notes.out) (./MA1100T Notes.out)
 \@outlinefile=\write3
 \openout3 = `"MA1100T Notes.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -497,137 +497,137 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `"MA1100T Notes.toc"'.
 
- [3]
+ [3] [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [5] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 117.
+ []
 
-[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [5] [6] [7]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 269.
+[9] [10] [11]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 384.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 384.
 
-Overfull \hbox (12.90102pt too wide) in paragraph at lines 269--270
+Overfull \hbox (12.90102pt too wide) in paragraph at lines 384--385
 []\OT1/cmr/bx/n/10 Example. []$[]\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 A; B\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 = [][][] = [][][] =
  []
 
-[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
-Overfull \hbox (6.95871pt too wide) in paragraph at lines 867--870
+[12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23]
+Overfull \hbox (6.95871pt too wide) in paragraph at lines 982--985
 []$\OT1/cmr/m/n/10 : Sup-pose for all $\OML/cmm/m/it/10 a[] < a$\OT1/cmr/m/n/10 , there is some $\OML/cmm/m/it/10 e[] \OMS/cmsy/m/n/10 2 F$ \OT1/cmr/m/n/10 such that $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = []\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 p[] [] [] e[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
  []
 
-[21] [22] [23] [24] [25] [26] [27]
+[24] [25] [26] [27] [28] [29] [30]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1249.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thicksim' on input line 1249.
+(hyperref)                removing `math shift' on input line 1364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1249.
+(hyperref)                removing `\thicksim' on input line 1364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1291.
+(hyperref)                removing `math shift' on input line 1364.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thicksim' on input line 1291.
+(hyperref)                removing `math shift' on input line 1406.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1291.
-
-[28] [29] [30]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1499.
+(hyperref)                removing `\thicksim' on input line 1406.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1499.
+(hyperref)                removing `math shift' on input line 1406.
+
+[31] [32] [33]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1614.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1499.
+(hyperref)                removing `math shift' on input line 1614.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1499.
-
-[31]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1544.
+(hyperref)                removing `math shift' on input line 1614.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1544.
+(hyperref)                removing `math shift' on input line 1614.
+
+[34]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1659.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1544.
+(hyperref)                removing `math shift' on input line 1659.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1544.
-
-[32] [33] [34] [35] [36] [37] [38]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1968.
+(hyperref)                removing `math shift' on input line 1659.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1968.
+(hyperref)                removing `math shift' on input line 1659.
 
-[39] [40] [41] [42]
-Underfull \hbox (badness 10000) in paragraph at lines 2269--2302
+[35] [36] [37] [38] [39] [40] [41]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2083.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2083.
+
+[42] [43] [44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 2384--2417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2269--2302
+Underfull \hbox (badness 10000) in paragraph at lines 2384--2417
 
  []
 
-[43] [44] [45] [46] [47] [48]
+[46] [47] [48] [49] [50] [51]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2590.
+(hyperref)                removing `math shift' on input line 2705.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2590.
+(hyperref)                removing `math shift' on input line 2705.
 
-[49] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 2797--2798
+[52] [53]
+Underfull \hbox (badness 10000) in paragraph at lines 2912--2913
 
  []
 
-[51] [52] (./MA1100T Notes.aux)
+[54] [55] (./MA1100T Notes.aux)
 Package rerunfilecheck Info: File `"MA1100T Notes".out' has not changed.
-(rerunfilecheck)             Checksum: 2AC1051DCA5DE481FE392550D1D06BA5;10527.
+(rerunfilecheck)             Checksum: F0871E93A354723E2BB0C3CD58F0835A;11713.
  ) 
 Here is how much of TeX's memory you used:
- 12306 strings out of 476025
- 192710 string characters out of 5790016
+ 12321 strings out of 476025
+ 192881 string characters out of 5790016
  1868388 words of memory out of 5000000
- 32221 multiletter control sequences out of 15000+600000
+ 32227 multiletter control sequences out of 15000+600000
  520831 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,76p,804b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,76p,804b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "MA1100T Notes.pdf" (52 pages, 419229 bytes).
+Output written on "MA1100T Notes.pdf" (55 pages, 426361 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 859 compressed objects within 9 object streams
- 364 named destinations out of 1000 (max. 500000)
- 465 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1008 PDF objects out of 1200 (max. 8388607)
+ 901 compressed objects within 10 object streams
+ 373 named destinations out of 1000 (max. 500000)
+ 513 words of extra memory for PDF output out of 10000 (max. 10000000)
 

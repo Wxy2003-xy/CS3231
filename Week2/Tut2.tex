@@ -1,0 +1,85 @@
+\documentclass[12pt]{article} 
+
+\usepackage[utf8]{inputenc}    
+\usepackage[T1]{fontenc}       
+\usepackage{lmodern}           
+\usepackage{amsmath, amssymb}  
+\usepackage{graphicx}          
+\usepackage{geometry}          
+\usepackage{hyperref}          
+\usepackage{fancyhdr}          
+\usepackage{parskip}           
+\usepackage{tikz}              
+\usepackage{booktabs}          
+\usepackage{enumitem}          
+\usepackage{caption}           
+\usepackage{listings}          
+\usepackage{multirow}    
+\usepackage{xcolor}      
+\usetikzlibrary{automata, positioning}
+\lstset{
+  frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{brown},
+  stringstyle=\color{orange},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
+
+\geometry{margin=1in} 
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark} 
+\fancyhead[R]{\thepage}  
+\newtheorem{Correction}{Correction}
+
+\title{CS3231 Tutorial 2}
+\author{WANG Xiyu}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents 
+
+\section{}
+
+\section*{Prove or disprove}
+\subsubsection*{}
+\[L((R + S)^*) = L((R^*S^*)^*)\]
+\subsubsection*{Solution:}
+Suppose string $w \in L(R+S)$, $w = t_1t_2t_3...t_n$, for some $n \in \mathbb{N}, t_i \in R \lor t_i \in S$.
+Which fits the definition of $L(R^*S^*)$ since both accept arbituary combination of $s \in S$ and $r \in R$, or arbituary length $n \in \mathbb{N}$.
+\newline
+Therefore, $L(R+S) \subseteq L(R^*S^*)$ 
+\newline
+\newline
+Now suppose string $u \in L(R^*S^*)$, $u = k_1k_2k_3...k_n$, for some $n \in \mathbb{N}$, $k_i \in R^* \lor k_i \in S^*$.
+Which fits the definition of $L(R+S)$ for the same reason above.
+
+
+
+\subsubsection*{}
+\[L(S(R+S)^*S) = L((SR^*S)^+)\]
+\subsubsection*{Solution:}
+ 
+\end{document}
